@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTC EXPLORER</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <center>
+      <br />
+      <img src="static\images\anon.jpg" width="300" />
+      <br />
+      <br />
+      <form action="/find" method="POST">
+        <label>Block HASH</label>
+        <input
+          type="text"
+          name="block_hash"
+          placeholder="Bitte Block HASH eintragen"
+        />
+        <br />
+        <br />
+        <label>BTC Adresse</label>
+        <input
+          type="text"
+          name="btc_add"
+          placeholder="Bitte BTC Adresse eintragen"
+        />
+        <br />
+        <br />
+        <button type="submit">Abschicken</button>
+        <br />
+        <br />
+      </form>
+    </center>
+  </body>
+</html>
